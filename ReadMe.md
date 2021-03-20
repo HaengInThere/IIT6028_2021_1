@@ -43,10 +43,10 @@ image(im_rgb)
 ```
 
 <p align='center'>
-  <img src='samples/bggr.png' width="140px">
-  <img src='samples/gbrg.png' width="140px">
-  <img src='samples/grbg.png' width="140px">
-  <img src='samples/rggb.png' width="140px">
+  <img src='samples/bggr.png' width="180px">
+  <img src='samples/gbrg.png' width="180px">
+  <img src='samples/grbg.png' width="180px">
+  <img src='samples/rggb.png' width="180px">
 </p>
 
 ## White balancing
@@ -76,8 +76,8 @@ image(white_bal_im_rgb)
 ```
 
 <p align='center'>
-  <img src='samples/Gray_whitebal.png' width="140px">
-  <img src='samples/White_whitebal.png' width="140px">
+  <img src='samples/Gray_whitebal.png' width="240px">
+  <img src='samples/White_whitebal.png' width="240px">
 </p>
 
 ## Demosiacing
@@ -147,8 +147,8 @@ figure()
 image(gamma_img)
 ```
 <p align='center'>
-  <img src='samples/gamma_gray.png' width="200px">
-  <img src='samples/gamma_white.png' width="200px">
+  <img src='samples/gamma_gray.png' width="240px">
+  <img src='samples/gamma_white.png' width="240px">
 </p>
 
 The result of white world assumption looks better.
@@ -182,16 +182,16 @@ Quality level
  [95, 80, 70, 60, 50, 40, 30, 20 , 10 , 5]
 
 <p align='center'>
-  <img src='samples/out_img_95.jpeg' width="160px">
-  <img src='samples/out_img_80.jpeg' width="160px">
-  <img src='samples/out_img_70.jpeg' width="160px">
-  <img src='samples/out_img_60.jpeg' width="160px">
-  <img src='samples/out_img_50.jpeg' width="160px">
+  <img src='samples/out_img_95.jpeg' width="170px">
+  <img src='samples/out_img_80.jpeg' width="170px">
+  <img src='samples/out_img_70.jpeg' width="170px">
+  <img src='samples/out_img_60.jpeg' width="170px">
+  <img src='samples/out_img_50.jpeg' width="170px">
 </p>
 <p align='center'>
-  <img src='samples/out_img_40.jpeg' width="160px">
-  <img src='samples/out_img_30.jpeg' width="160px">
-  <img src='samples/out_img_20.jpeg' width="160px">
-  <img src='samples/out_img_10.jpeg' width="160px">
-  <img src='samples/out_img_5.jpeg' width="160px">
+  <img src='samples/out_img_40.jpeg' width="170px">
+  <img src='samples/out_img_30.jpeg' width="170px">
+  <img src='samples/out_img_20.jpeg' width="170px">
+  <img src='samples/out_img_10.jpeg' width="170px">
+  <img src='samples/out_img_5.jpeg' width="170px">
 </p>
