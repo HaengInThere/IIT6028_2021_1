@@ -41,10 +41,14 @@ im_g = (im_g_1 + im_g_2) /2 ;
 im_rgb = cat(3, im_r, im_g, im_b);
 image(im_rgb)
 ```
-![bggr](https://user-images.githubusercontent.com/57987169/111861130-5687c880-898f-11eb-9cd9-4d5e2357315c.png){: width="50%" height="50"} 
-![gbrg](https://user-images.githubusercontent.com/57987169/111861145-7d45ff00-898f-11eb-8bae-38b39c85dbd3.png){: width="50%" height="50%"} 
-![grbg](https://user-images.githubusercontent.com/57987169/111861154-88992a80-898f-11eb-8ce9-c26d729b3dae.png){: width="50%" height="50%"} 
-![rggb](https://user-images.githubusercontent.com/57987169/111861155-89ca5780-898f-11eb-86bf-7539515f4fe7.png){: width="50%" height="50%"} 
+
+<p align='center'>
+  <img src='samples/bggr.png' width="140px">
+  <img src='samples/gbrg.png' width="140px">
+  <img src='samples/grbg.png' width="140px">
+  <img src='samples/rggb.png' width="140px">
+</p>
+
 ## White balancing
 Two cases of white balancing : Gray world assumption & White world assumption
 
@@ -70,6 +74,11 @@ white_bal_im_rgb = cat(3, white_bal_r, white_bal_g, white_bal_b);
 figure()
 image(white_bal_im_rgb)
 ```
+
+<p align='center'>
+  <img src='samples/Gray_whitebal.png' width="140px">
+  <img src='samples/White_whitebal.png' width="140px">
+</p>
 
 ## Demosiacing
 Bilinear interpolation for demosaicing. (using interp2 function in MatLab)
@@ -137,9 +146,15 @@ gamma_img = cat(3, interpol_r, interpol_g, interpol_b);
 figure()
 image(gamma_img)
 ```
+<p align='center'>
+  <img src='samples/gamma_gray.png' width="200px">
+  <img src='samples/gamma_white.png' width="200px">
+</p>
 
+The result of white world assumption looks better.
 
 ## Compression
+Compression was obviously obseved at 30 quality level setting.
 
 ```matlab
 imwrite(gamma_interpol_im, 'out_img_95.png');
@@ -155,3 +170,28 @@ imwrite(gamma_interpol_im, 'out_img_20.jpeg', 'quality', 20);
 imwrite(gamma_interpol_im, 'out_img_10.jpeg', 'quality', 10);
 imwrite(gamma_interpol_im, 'out_img_5.jpeg', 'quality', 5);
 ```
+
+Comparison .png vs .jpeg
+
+<p align='center'>
+  <img src='samples/out_img.png' width="200px">
+  <img src='samples/out_img_95.jpeg' width="200px">
+</p>
+
+Quality level
+ - 95, 80, 70, 60, 50, 40, 30, 20 , 10 , 5
+
+<p align='center'>
+  <img src='samples/out_img_95.jpeg' width="160px">
+  <img src='samples/out_img_80.jpeg' width="160px">
+  <img src='samples/out_img_70.jpeg' width="160px">
+  <img src='samples/out_img_60.jpeg' width="160px">
+  <img src='samples/out_img_50.jpeg' width="160px">
+</p>
+<p align='center'>
+  <img src='samples/out_img_40.jpeg' width="160px">
+  <img src='samples/out_img_30.jpeg' width="160px">
+  <img src='samples/out_img_20.jpeg' width="160px">
+  <img src='samples/out_img_10.jpeg' width="160px">
+  <img src='samples/out_img_5.jpeg' width="160px">
+</p>
