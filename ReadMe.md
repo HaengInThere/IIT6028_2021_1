@@ -41,6 +41,7 @@ im_g = (im_g_1 + im_g_2) /2 ;
 im_rgb = cat(3, im_r, im_g, im_b);
 image(im_rgb)
 ```
+bggr, gbrg, grbg, rggb
 
 <p align='center'>
   <img src='samples/bggr.png' width="180px">
