@@ -41,10 +41,10 @@ im_g = (im_g_1 + im_g_2) /2 ;
 im_rgb = cat(3, im_r, im_g, im_b);
 image(im_rgb)
 ```
-![bggr](https://user-images.githubusercontent.com/57987169/111861130-5687c880-898f-11eb-9cd9-4d5e2357315c.png) {: width="50%" height="50"} 
-![gbrg](https://user-images.githubusercontent.com/57987169/111861145-7d45ff00-898f-11eb-8bae-38b39c85dbd3.png) {: width="50%" height="50%"} 
-![grbg](https://user-images.githubusercontent.com/57987169/111861154-88992a80-898f-11eb-8ce9-c26d729b3dae.png) {: width="50%" height="50%"} 
-![rggb](https://user-images.githubusercontent.com/57987169/111861155-89ca5780-898f-11eb-86bf-7539515f4fe7.png) {: width="50%" height="50%"} 
+![bggr](https://user-images.githubusercontent.com/57987169/111861130-5687c880-898f-11eb-9cd9-4d5e2357315c.png){: width="50%" height="50"} 
+![gbrg](https://user-images.githubusercontent.com/57987169/111861145-7d45ff00-898f-11eb-8bae-38b39c85dbd3.png){: width="50%" height="50%"} 
+![grbg](https://user-images.githubusercontent.com/57987169/111861154-88992a80-898f-11eb-8ce9-c26d729b3dae.png){: width="50%" height="50%"} 
+![rggb](https://user-images.githubusercontent.com/57987169/111861155-89ca5780-898f-11eb-86bf-7539515f4fe7.png){: width="50%" height="50%"} 
 ## White balancing
 Two cases of white balancing : Gray world assumption & White world assumption
 
