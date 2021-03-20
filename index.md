@@ -42,6 +42,32 @@ im_rgb = cat(3, im_r, im_g, im_b);
 image(im_rgb)
 ```
 
+## White balancing
+Two cases of white balancing : Gray world assumption & White world assumption
+
+```matlab
+%% white balancing
+% gray world assumption
+
+gray_bal_r = mean(im_g(:)) / mean(im_r(:)) * im_r;
+gray_bal_g = im_g;
+gray_bal_b = mean(im_g(:)) / mean(im_b(:)) * im_b;
+
+gray_bal_im_rgb = cat(3, gray_bal_r, gray_bal_g, gray_bal_b);
+figure()
+image(gray_bal_im_rgb)
+
+% white world assumption
+
+white_bal_r = max(im_g(:)) / max(im_r(:)) * im_r;
+white_bal_g = im_g ;
+white_bal_b = max(im_g(:)) / max(im_b(:)) * im_b;
+
+white_bal_im_rgb = cat(3, white_bal_r, white_bal_g, white_bal_b);
+figure()
+image(white_bal_im_rgb)
+```
+
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
