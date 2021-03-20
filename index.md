@@ -1,8 +1,8 @@
-### 계산영상시스템 Homework #1 : Demosaic
+# 계산영상시스템 Homework #1 : Demosaic
 
 ## Implementation a basic image processing pipeline
 
-# Initials
+## Initials
 Image read, convert to 2D-double array
 
 ```
