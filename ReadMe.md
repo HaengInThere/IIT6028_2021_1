@@ -179,7 +179,7 @@ Comparison .png vs .jpeg
 </p>
 
 Quality level
- - 95, 80, 70, 60, 50, 40, 30, 20 , 10 , 5
+ [95, 80, 70, 60, 50, 40, 30, 20 , 10 , 5]
 
 <p align='center'>
   <img src='samples/out_img_95.jpeg' width="160px">
