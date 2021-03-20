@@ -68,6 +68,23 @@ figure()
 image(white_bal_im_rgb)
 ```
 
+## Demosiacing
+Bilinear interpolation for demosaicing. (using interp2 function in MatLab)
+
+```matlab
+%% demosaic
+
+gray_interpol_r = interp2(gray_bal_r);
+gray_interpol_g = interp2(gray_bal_g);
+gray_interpol_b = interp2(gray_bal_g);
+gray_interpol_im = 2.5 *  cat(3, gray_interpol_r, gray_interpol_g, gray_interpol_b);
+
+white_interpol_r = interp2(white_bal_r);
+white_interpol_g = interp2(white_bal_g);
+white_interpol_b = interp2(white_bal_b);
+white_interpol_im = 3.15 * cat(3, white_interpol_r, white_interpol_g, white_interpol_b);
+```
+
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
