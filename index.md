@@ -9,21 +9,21 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+clc; clear all;
 
-# Header 1
-## Header 2
-### Header 3
+img_cr2 = imread('G:\수업\수강\[2-1]계산영상시스템\hw\1\assign1\data\banana_slug.cr2');
+img_tiff = imread('G:\수업\수강\[2-1]계산영상시스템\hw\1\assign1\data\banana_slug.tiff');
 
-- Bulleted
-- List
+% image size 
+[H, W] = size(img_tiff);
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+class(img_tiff)
+double_img = double(img_tiff);
+% Linearization into range [0,1] using linear transformation
+norm_img = (double_img/(15000 - 2047)) - (2047 / (15000-2047));
+% clipping
+norm_img(norm_img<0) = 0;
+norm_img(norm_img>1) = 1;
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
