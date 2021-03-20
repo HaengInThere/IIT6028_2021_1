@@ -1,14 +1,11 @@
-## Welcome to GitHub Pages
+### 계산영상시스템 Homework #1 : Demosaic
 
-You can use the [editor on GitHub](https://github.com/HaengInThere/IIT6028_2021_1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Implementation a basic image processing pipeline
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Initials
+Image read, convert to 2D-double array
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
+```
 clc; clear all;
 
 img_cr2 = imread('G:\수업\수강\[2-1]계산영상시스템\hw\1\assign1\data\banana_slug.cr2');
@@ -19,6 +16,10 @@ img_tiff = imread('G:\수업\수강\[2-1]계산영상시스템\hw\1\assign1\data
 
 class(img_tiff)
 double_img = double(img_tiff);
+```
+# Linearization
+Linear tranformation for img and clipping
+```
 % Linearization into range [0,1] using linear transformation
 norm_img = (double_img/(15000 - 2047)) - (2047 / (15000-2047));
 % clipping
