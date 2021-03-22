@@ -1,5 +1,5 @@
 # 계산영상시스템 Homework #1 : Demosaic
-
+# 전기전자공학부 2020314086 이정행
 ## Implementation a basic image processing pipeline
 
 ## Initials
