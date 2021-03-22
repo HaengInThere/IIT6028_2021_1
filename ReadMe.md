@@ -29,6 +29,7 @@ norm_img(norm_img>1) = 1;
 
 ## Identifying the correct Bayer pattern
 Comparing the four cases, it was determined that the given image has a pattern of rggb.
+(Look at the color representation of banana slug. Original color of banana slug is almost yellow.)
 
 ```matlab
 %% rggb
@@ -179,20 +180,79 @@ Comparison .png vs .jpeg
   <img src='samples/out_img_95.jpeg' width="200px">
 </p>
 
-Quality level
+
+
+Demonstrated compression with various quality level \
  [95, 80, 70, 60, 50, 40, 30, 20 , 10 , 5]
 
+
+(reference image) \
+.png : 15.7MB
 <p align='center'>
-  <img src='samples/out_img_95.jpeg' width="170px">
-  <img src='samples/out_img_80.jpeg' width="170px">
-  <img src='samples/out_img_70.jpeg' width="170px">
-  <img src='samples/out_img_60.jpeg' width="170px">
-  <img src='samples/out_img_50.jpeg' width="170px">
+  <img src='samples/out_img.png' width="230px">
 </p>
+
+(compressed image)
+.jpeg
+
 <p align='center'>
-  <img src='samples/out_img_40.jpeg' width="170px">
-  <img src='samples/out_img_30.jpeg' width="170px">
-  <img src='samples/out_img_20.jpeg' width="170px">
-  <img src='samples/out_img_10.jpeg' width="170px">
-  <img src='samples/out_img_5.jpeg' width="170px">
+  <img src='samples/out_img_95.jpeg' width="230px">
 </p>
+compression quality : 95 \
+3214KB (3.214MB) compression ratio : 24.47%
+
+<p align='center'>
+  <img src='samples/out_img_80.jpeg' width="230px">
+</p>
+compression quality : 80\
+3214KB (1.372MB) compression ratio : 8.73%
+
+<p align='center'>
+  <img src='samples/out_img_70.jpeg' width="230px">
+</p>
+compression quality : 70 \
+3214KB (1.063MB) compression ratio : 6.77%
+
+<p align='center'>
+  <img src='samples/out_img_60.jpeg' width="230px">
+</p>
+compression quality : 60 \
+883KB compression ratio : 5.62%
+
+<p align='center'>
+  <img src='samples/out_img_50.jpeg' width="230px">
+</p>
+compression quality : 50 \
+769KB compression ratio : 4.90%
+
+<p align='center'>
+  <img src='samples/out_img_40.jpeg' width="230px">
+</p>
+compression quality : 40 \
+666KB compression ratio : 4.24%
+
+<p align='center'>
+  <img src='samples/out_img_30.jpeg' width="230px">
+</p>
+compression quality : 30 \
+564KB compression ratio : 3.59%
+
+<p align='center'>
+  <img src='samples/out_img_20.jpeg' width="230px">
+</p>
+compression quality : 20 \
+449KB compression ratio : 2.86%
+
+<p align='center'>
+  <img src='samples/out_img_10.jpeg' width="230px">
+</p>
+compression quality : 10 \
+320KB compression ratio : 2.04%
+
+<p align='center'>
+  <img src='samples/out_img_5.jpeg' width="230px">
+</p>
+compression quality : 5 \
+247KB compression ratio : 1.57%
+
+
