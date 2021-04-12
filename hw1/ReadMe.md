@@ -45,10 +45,10 @@ image(im_rgb)
 bggr, gbrg, grbg, rggb
 
 <p align='center'>
-  <img src='samples/bggr.png' width="180px">
-  <img src='samples/gbrg.png' width="180px">
-  <img src='samples/grbg.png' width="180px">
-  <img src='samples/rggb.png' width="180px">
+  <img src='../samples/bggr.png' width="180px">
+  <img src='../samples/gbrg.png' width="180px">
+  <img src='../samples/grbg.png' width="180px">
+  <img src='../samples/rggb.png' width="180px">
 </p>
 
 ## White balancing
@@ -78,8 +78,8 @@ image(white_bal_im_rgb)
 ```
 
 <p align='center'>
-  <img src='samples/Gray_whitebal.png' width="240px">
-  <img src='samples/White_whitebal.png' width="240px">
+  <img src='../samples/Gray_whitebal.png' width="240px">
+  <img src='../samples/White_whitebal.png' width="240px">
 </p>
 
 ## Demosiacing
@@ -149,8 +149,8 @@ figure()
 image(gamma_img)
 ```
 <p align='center'>
-  <img src='samples/gamma_gray.png' width="240px">
-  <img src='samples/gamma_white.png' width="240px">
+  <img src='../samples/gamma_gray.png' width="240px">
+  <img src='../samples/gamma_white.png' width="240px">
 </p>
 
 The result of white world assumption looks better.
@@ -176,8 +176,8 @@ imwrite(gamma_interpol_im, 'out_img_5.jpeg', 'quality', 5);
 Comparison .png vs .jpeg
 
 <p align='center'>
-  <img src='samples/out_img.png' width="200px">
-  <img src='samples/out_img_95.jpeg' width="200px">
+  <img src='../samples/out_img.png' width="200px">
+  <img src='../samples/out_img_95.jpeg' width="200px">
 </p>
 
 
@@ -189,68 +189,68 @@ Demonstrated compression with various quality level \
 (reference image) \
 .png : 15.7MB
 <p align='center'>
-  <img src='samples/out_img.png' width="230px">
+  <img src='../samples/out_img.png' width="230px">
 </p>
 
 (compressed image)
 .jpeg
 
 <p align='center'>
-  <img src='samples/out_img_95.jpeg' width="230px">
+  <img src='../samples/out_img_95.jpeg' width="230px">
 </p>
 compression quality : 95 \
 3214KB (3.214MB) compression ratio : 24.47%
 
 <p align='center'>
-  <img src='samples/out_img_80.jpeg' width="230px">
+  <img src='../samples/out_img_80.jpeg' width="230px">
 </p>
 compression quality : 80\
 3214KB (1.372MB) compression ratio : 8.73%
 
 <p align='center'>
-  <img src='samples/out_img_70.jpeg' width="230px">
+  <img src='../samples/out_img_70.jpeg' width="230px">
 </p>
 compression quality : 70 \
 3214KB (1.063MB) compression ratio : 6.77%
 
 <p align='center'>
-  <img src='samples/out_img_60.jpeg' width="230px">
+  <img src='../samples/out_img_60.jpeg' width="230px">
 </p>
 compression quality : 60 \
 883KB compression ratio : 5.62%
 
 <p align='center'>
-  <img src='samples/out_img_50.jpeg' width="230px">
+  <img src='../samples/out_img_50.jpeg' width="230px">
 </p>
 compression quality : 50 \
 769KB compression ratio : 4.90%
 
 <p align='center'>
-  <img src='samples/out_img_40.jpeg' width="230px">
+  <img src='../samples/out_img_40.jpeg' width="230px">
 </p>
 compression quality : 40 \
 666KB compression ratio : 4.24%
 
 <p align='center'>
-  <img src='samples/out_img_30.jpeg' width="230px">
+  <img src='../samples/out_img_30.jpeg' width="230px">
 </p>
 compression quality : 30 \
 564KB compression ratio : 3.59%
 
 <p align='center'>
-  <img src='samples/out_img_20.jpeg' width="230px">
+  <img src='../samples/out_img_20.jpeg' width="230px">
 </p>
 compression quality : 20 \
 449KB compression ratio : 2.86%
 
 <p align='center'>
-  <img src='samples/out_img_10.jpeg' width="230px">
+  <img src='../samples/out_img_10.jpeg' width="230px">
 </p>
 compression quality : 10 \
 320KB compression ratio : 2.04%
 
 <p align='center'>
-  <img src='samples/out_img_5.jpeg' width="230px">
+  <img src='../samples/out_img_5.jpeg' width="230px">
 </p>
 compression quality : 5 \
 247KB compression ratio : 1.57%
