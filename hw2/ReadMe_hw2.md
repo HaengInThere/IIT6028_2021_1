@@ -178,6 +178,7 @@ Filter visualization results
   <img src='../Figs/hw2/spec_2.png' width="240px">
 </p>
 
+
 ## Image reconstruction 
 Reconstruct the images with pyramids and save video.
 
@@ -218,4 +219,17 @@ end
 
 close(output_video);
 ```
+
+<p align='center'>
+  <img src='../Figs/hw2/baby.gif' width="360px">
+  <img src='../Figs/hw2/face.gif' width="360px">
+</p>
+
+## Extra Credit: Capture and motion-magnify your own video.
+### 2 Results according to various filters.
+
+<p align='center'>
+  <img src='../Figs/hw2/my_1.gif' width="360px">
+  <img src='../Figs/hw2/my_2.gif' width="360px">
+</p>
 
