@@ -111,10 +111,9 @@ output = reshape(v, [imh, imw]);
 end
 ```
 
-Results
+###Results
 
 <figure role="group"  align='center'>
-    <figcaption>Toy problem</figcaption>
     <figure>
         <img src='./Figs/hw3/data/toy_problem.png' width="320px">
         <figcaption>Original image</figcaption>
@@ -170,9 +169,8 @@ im_blend = reshape(v, H, W, c);
                 
 end
 ```
-
+### Penguin 1
 <figure role="group"  align='center'>
-    <figcaption>Penguin 1</figcaption></figcaption>
     <figure>
         <img src='./Figs/hw3/data/penguin.jpg' width="280px">
         <figcaption>Original penguin</figcaption>
@@ -187,9 +185,8 @@ end
     </figure>
 </figure>
     
-
+### Penguin 2
 <figure role="group"  align='center'>
-    <figcaption>Penguin 2</figcaption></figcaption>
     <figure>
         <img src='./Figs/hw3/data/penguin-chick.jpeg' width="280px">
         <figcaption>Original penguin 2</figcaption>
@@ -288,7 +285,7 @@ im_blend = mask.*final + (1-mask).*im_background;
 
 end
 ```
-
+### Penguin 1
 <figure role="group"  align='center'>
     <figure>
         <img src='./Figs/hw3/data/penguin.jpg' width="280px">
@@ -304,7 +301,7 @@ end
     </figure>
 </figure>
     
-
+### Penguin 2
 <figure role="group"  align='center'>
     <figure>
         <img src='./Figs/hw3/data/penguin-chick.jpeg' width="280px">
@@ -351,8 +348,8 @@ Apple with Lee, Classroom with a man holding a book, River scene with Jesus.
 ### A man in classroom
 <figure role="group"  align='center'>
     <figure>
-        <img src='./Figs/hw3/data/teacher.png' width="240px">
-        <figcaption>Lee</figcaption>
+        <img src='./Figs/hw3/data/teacher.jpg' width="240px">
+        <figcaption>Teacher</figcaption>
     </figure>
     <figure>
         <img src='./Figs/hw3/data/class.jpg' width="240px">
