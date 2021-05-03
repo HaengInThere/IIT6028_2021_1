@@ -367,3 +367,23 @@ Apple with Lee, Classroom with a man holding a book, River scene with Jesus.
         <figcaption>Blended result : Mixed Gradient</figcaption>
     </figure>
 </figure>
+
+### Jesus on riverside
+<figure role="group"  align='center'>
+    <figure>
+        <img src='./Figs/hw3/data/jesus.jpg' width="240px">
+        <figcaption>Jesus</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/data/river.jpg' width="240px">
+        <figcaption>Before Christ river</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/results/jesus_blend.png' width="240px">
+        <figcaption>Blended result : Poisson</figcaption>
+    </figure>
+        <figure>
+        <img src='./Figs/hw3/results/jesus_mixed.png' width="240px">
+        <figcaption>Blended result : Mixed Gradient</figcaption>
+    </figure>
+</figure>
