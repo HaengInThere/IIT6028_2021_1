@@ -191,7 +191,7 @@ end
 <figure role="group"  align='center'>
     <figcaption>Penguin 2</figcaption></figcaption>
     <figure>
-        <img src='./Figs/hw3/data/-chick.jpeg' width="280px">
+        <img src='./Figs/hw3/data/penguin-chick.jpeg' width="280px">
         <figcaption>Original penguin 2</figcaption>
     </figure>
     <figure>
@@ -290,7 +290,6 @@ end
 ```
 
 <figure role="group"  align='center'>
-    <figcaption>Penguin 1</figcaption></figcaption>
     <figure>
         <img src='./Figs/hw3/data/penguin.jpg' width="280px">
         <figcaption>Original penguin</figcaption>
@@ -307,9 +306,8 @@ end
     
 
 <figure role="group"  align='center'>
-    <figcaption>Penguin 2</figcaption></figcaption>
     <figure>
-        <img src='./Figs/hw3/data/-chick.jpeg' width="280px">
+        <img src='./Figs/hw3/data/penguin-chick.jpeg' width="280px">
         <figcaption>Original penguin 2</figcaption>
     </figure>
     <figure>
@@ -328,15 +326,14 @@ I applied 3 cased in this assignment.
 Apple with Lee, Classroom with a man holding a book, River scene with Jesus.
 
 
-Lee in Apple keynote
+### Lee in Apple keynote
 <figure role="group"  align='center'>
-    <figcaption>Apple with Samsung</figcaption></figcaption>
     <figure>
-        <img src='./Figs/hw3/data/lee.png' width="240px">
+        <img src='./Figs/hw3/data/lee.jpg' width="240px">
         <figcaption>Lee</figcaption>
     </figure>
     <figure>
-        <img src='./Figs/hw3/data/apple.jpg' width="240px">
+        <img src='./Figs/hw3/data/apple.png' width="240px">
         <figcaption>Apple keynote</figcaption>
     </figure>
     <figure>
@@ -349,9 +346,10 @@ Lee in Apple keynote
     </figure>
 </figure>
 
-A man in classroom
+
+
+### A man in classroom
 <figure role="group"  align='center'>
-    <figcaption>A man in classroom</figcaption></figcaption>
     <figure>
         <img src='./Figs/hw3/data/teacher.png' width="240px">
         <figcaption>Lee</figcaption>
