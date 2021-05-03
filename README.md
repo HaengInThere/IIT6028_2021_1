@@ -110,6 +110,29 @@ output = reshape(v, [imh, imw]);
 
 end
 ```
+
+Results
+
+<figure role="group">
+    <figcaption>Toy problem</figcaption>
+
+    <figure>
+        <img src='./Figs/hw3/data/toy_problem.png' width="480px">
+        <figcaption>Original image</figcaption>
+    </figure>
+
+    <figure>
+        <img src='./Figs/hw3/results/toy_result.png' width="480px">
+        <figcaption>Caption for Picture 2</figcaption>
+    </figure>
+
+</figure>
+<p align='center'>
+  <img src='./Figs/hw3/source.JPG' width="240px">
+  <img src='./Figs/hw3/background.JPG' width="240px">
+</p>
+
+
 ## Poisson blending 
 
 
