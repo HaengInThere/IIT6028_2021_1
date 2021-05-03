@@ -13,7 +13,7 @@ Through the process of cropping, the part to be used in the source image can be 
 It will be combined like this
 
 <p align='center'>
-  <img src='./Figs/hw3/source.JPG' width="240px">
+  <img src='./Figs/hw3/source.png' width="240px">
   <img src='./Figs/hw3/background.JPG' width="240px">
 </p>
 
@@ -113,19 +113,21 @@ end
 
 Results
 
-<figure role="group">
+<figure role="group"  align='center'>
     <figcaption>Toy problem</figcaption>
     <figure>
-        <img src='./Figs/hw3/data/toy_problem.png' width="480px">
+        <img src='./Figs/hw3/data/toy_problem.png' width="320px">
         <figcaption>Original image</figcaption>
     </figure>
     <figure>
-        <img src='./Figs/hw3/results/toy_result.png' width="480px">
-        <figcaption>Caption for Picture 2</figcaption>
+        <img src='./Figs/hw3/results/toy_result.png' width="320px">
+        <figcaption>Result</figcaption>
     </figure>
+</figure>
 
 ## Poisson blending 
 
+Put penguins into hiking image. 
 
 ```matlab
 function im_blend = poissonBlend(source, mask_s, im_background)
@@ -169,14 +171,42 @@ im_blend = reshape(v, H, W, c);
 end
 ```
 
+<figure role="group"  align='center'>
+    <figcaption>Penguin 1</figcaption></figcaption>
+    <figure>
+        <img src='./Figs/hw3/data/penguin.jpg' width="280px">
+        <figcaption>Original penguin</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/data/hiking.jpg' width="280px">
+        <figcaption>Background image</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/results/penguin_blend_1.png' width="280px">
+        <figcaption>Blended result</figcaption>
+    </figure>
 </figure>
-<p align='center'>
-  <img src='./Figs/hw3/source.JPG' width="240px">
-  <img src='./Figs/hw3/background.JPG' width="240px">
-</p>
+    
+
+<figure role="group"  align='center'>
+    <figcaption>Penguin 2</figcaption></figcaption>
+    <figure>
+        <img src='./Figs/hw3/data/-chick.jpeg' width="280px">
+        <figcaption>Original penguin 2</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/data/hiking.jpg' width="280px">
+        <figcaption>Background image</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/results/penguin_blend_2.png' width="280px">
+        <figcaption>Blended result 2</figcaption>
+    </figure>
+</figure>
+
 
 ## Blending with mixed gradients
-
+Following the same steps as Poisson blending, can apply mixed gradient case. 
 ```matlab
 function im_blend = mixedBlend(im_s, mask_s, im_background)
 
@@ -259,27 +289,83 @@ im_blend = mask.*final + (1-mask).*im_background;
 end
 ```
 
+<figure role="group"  align='center'>
+    <figcaption>Penguin 1</figcaption></figcaption>
+    <figure>
+        <img src='./Figs/hw3/data/penguin.jpg' width="280px">
+        <figcaption>Original penguin</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/data/hiking.jpg' width="280px">
+        <figcaption>Background image</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/results/penguin_mixed_1.png' width="280px">
+        <figcaption>Blended result</figcaption>
+    </figure>
+</figure>
+    
 
-## Extracting the frequency band of interest
-Filter visualization results
-
-<p align='center'>
-  <img src='./Figs/hw2/spec_1.png' width="240px">
-  <img src='./Figs/hw2/spec_2.png' width="240px">
-</p>
+<figure role="group"  align='center'>
+    <figcaption>Penguin 2</figcaption></figcaption>
+    <figure>
+        <img src='./Figs/hw3/data/-chick.jpeg' width="280px">
+        <figcaption>Original penguin 2</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/data/hiking.jpg' width="280px">
+        <figcaption>Background image</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/results/penguin_mixed_2.png' width="280px">
+        <figcaption>Blended result 2</figcaption>
+    </figure>
+</figure>
 
 
 ## Your own examples
+I applied 3 cased in this assignment. 
+Apple with Lee, Classroom with a man holding a book, River scene with Jesus.
 
 
-<p align='center'>
-  <img src='./Figs/hw2/baby.gif' width="360px">
-  <img src='./Figs/hw2/face.gif' width="360px">
-</p>
+Lee in Apple keynote
+<figure role="group"  align='center'>
+    <figcaption>Apple with Samsung</figcaption></figcaption>
+    <figure>
+        <img src='./Figs/hw3/data/lee.png' width="240px">
+        <figcaption>Lee</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/data/apple.jpg' width="240px">
+        <figcaption>Apple keynote</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/results/lee_blend.png' width="240px">
+        <figcaption>Blended result : Poisson</figcaption>
+    </figure>
+        <figure>
+        <img src='./Figs/hw3/results/lee_mixed.png' width="240px">
+        <figcaption>Blended result : Mixed Gradient</figcaption>
+    </figure>
+</figure>
 
-
-<p align='center'>
-  <img src='./Figs/hw2/my_1.gif' width="360px">
-  <img src='./Figs/hw2/my_2.gif' width="360px">
-</p>
-
+A man in classroom
+<figure role="group"  align='center'>
+    <figcaption>A man in classroom</figcaption></figcaption>
+    <figure>
+        <img src='./Figs/hw3/data/teacher.png' width="240px">
+        <figcaption>Lee</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/data/class.jpg' width="240px">
+        <figcaption>Empty classroom</figcaption>
+    </figure>
+    <figure>
+        <img src='./Figs/hw3/results/teacher_blend.png' width="240px">
+        <figcaption>Blended result : Poisson</figcaption>
+    </figure>
+        <figure>
+        <img src='./Figs/hw3/results/teacher_mixed.png' width="240px">
+        <figcaption>Blended result : Mixed Gradient</figcaption>
+    </figure>
+</figure>
